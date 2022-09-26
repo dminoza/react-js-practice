@@ -1,0 +1,117 @@
+div {
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 406px;
+    width: 400px;
+    background: #ffff;
+    box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.21);
+-webkit-box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.21);
+-moz-box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.21);
+  }
+
+  img {
+    position: relative;
+    margin: 49px 0 2px 0;
+    border-radius: 50%;
+  }
+
+  p {
+    position: relative;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  span{
+    position: relative;
+    left: -5.2em;
+    top: -2px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #606770;
+  }
+  input{
+    display: inline-block;
+  }
+  input[type="password"] {
+    outline: blue;
+    border-radius: 9px;
+    padding: 0 0 0 20px;
+    height: 48px;
+    width: 320px;
+    border: rgb(228, 228, 228) 1px solid;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  }
+  input[type="password"]:focus{
+    outline: 1px #1877f2 solid;
+    box-shadow: 0 0 2px -1px;
+  }
+  input[type="text"] {
+    outline: blue;
+    border-radius: 9px;
+    padding: 0 0 0 20px;
+    height: 48px;
+    width: 320px;
+    border: rgb(228, 228, 228) 1px solid;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  }
+  input[type="text"]:focus{
+    outline: 1px #1877f2 solid;
+    box-shadow: 0 0 2px -1px;
+  }
+
+
+  input[type="checkbox"]{
+    left: -5.2em;
+    margin-top: 1em;
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    height: 16px;
+    width: 20px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  
+    
+  }
+  input[type="checkbox"]:hover{
+    cursor: pointer;
+  }
+  input[type="submit"]{
+    height: 40px;
+    width: 336px;
+    border-radius: 9px;
+    border: rgb(228, 228, 228) 1px solid;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    color: #ffff;
+    background-color: #1877f2;
+    transition: .2s;
+  }
+  input[type="submit"]:hover{
+    background-color: #1a73e7;
+    transition: ease-in-out;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1a73e7;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+
+  }
+  a:hover{
+    text-decoration: underline #1a73e7 1px;
+  }
