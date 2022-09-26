@@ -1,4 +1,5 @@
 import './App.css';
+import ThemeInputField from './components/ThemeInputField';
 import React from 'react';
 
 class App extends React.Component {
@@ -61,9 +62,10 @@ class App extends React.Component {
         <h1>
           Kalibangon ko
         </h1>
-        <div>
+        <ThemeInputField placeholder='First Name' value={firstName} onChangeTheme={this.onChangeFirstName} label='First Name: ' />
+        {/* <div>
           <input placeholder='firstname' value={firstName} onChange={this.onChangeFirstName}></input>
-        </div>
+        </div> */}
         <div style={{marginTop: 10, marginBottom: 10}}>
           <input placeholder='lastname' value={this.state.lastName} onChange={this.onChangeLastName.bind(this)}></input>
         </div>
